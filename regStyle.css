@@ -1,0 +1,114 @@
+*{
+     padding: 0px;
+     margin: 0px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+     background-image: linear-gradient(to right, rgb(95, 183, 255) 0%, rgb(255, 77, 77) 100%);
+}
+
+main{
+     text-align: center;
+     border-radius: 10px;
+     height: 400px;
+     width: 20%;
+     margin: 0 auto;
+     background-color: white;
+
+}
+.rejestracja, .login{
+     text-align: right;
+     margin-right: 110px;
+}
+input[type='text']{
+    border: 0px;
+    border-bottom: 2px solid black;
+    padding: 5px;
+}
+input[type='text']:focus{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    outline: none;
+}
+input[type='email']{
+    border: 0px;
+    border-bottom: 2px solid black;
+    padding: 5px;
+}
+input[type='email']:focus{
+    border-bottom: 2px solid black;
+    outline: none;
+}
+input[type='password']{
+    border: 0px;
+    border-bottom: 2px solid black;
+    padding: 5px;
+
+}
+input[type='password']:focus{
+    border-bottom: 2px solid black;
+    outline: none;
+}
+label{
+     position: absolute;
+     margin-left: -155px;
+     transition: 0.2s ease;
+     pointer-events: none;
+}
+
+input[type='email']:focus + label[for="email"],
+input[type='email']:not(:placeholder-shown) + label[for="email"] {
+    font-size: 80%;
+    margin-top: -10px;
+    transition: 0.2s;
+}
+
+input[type='text']:focus + label[for="nick"],
+input[type='text']:valid + label[for="nick"]{
+     transition: 0.2s;
+     font-size: 80%;
+     margin-top: -10px;
+}
+input[type='password']:focus + label[for="haslo"],
+input[type='password']:valid + label[for="haslo"]{
+     transition: 0.2s;
+     font-size: 80%;
+     margin-top: -10px;
+}
+input[type="submit"]{
+
+    color: rgb(0, 0, 0);
+    border: 0px;
+    transition: 0.5s;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    font-size: 4mm;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+input[type="submit"]:hover{
+    background-color: rgba(0, 0, 0, 0.212);
+    transition: 0.5s;
+}
+input[type="reset"]{
+
+    color: red;
+    border: 0px;
+    transition: 0.5s;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    font-size: 4mm;
+    font-weight: 600;
+}
+input[type="reset"]:hover{
+    background-color: rgba(255, 0, 0, 0.212);
+    transition: 0.5s;
+}
+.offer{
+    font-weight: bold;
+    font-size: 3mm;
+}

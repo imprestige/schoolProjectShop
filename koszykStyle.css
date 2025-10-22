@@ -1,0 +1,94 @@
+*{
+     padding: 0px;
+     margin: 0px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+     background-image: linear-gradient(to right, rgb(95, 183, 255) 0%, rgb(255, 77, 77) 100%);
+}
+main {
+    height: 700px;
+    width: 60%;
+    background-color: white;
+    border-radius: 0px 5px 5px 0px;
+    float: left;
+
+}
+aside {
+
+    /* position: absolute; */
+    margin-left: 1200px;
+    margin-top: 100px;
+    height: 700px;
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+}
+main h3 {
+    padding: 15px;
+}
+aside button {
+    background-color: white;
+    border: none;
+    padding: 20px;
+    width: 100px;
+    border-radius: 5px;
+         -webkit-box-shadow: 0px 0px 9px -5px rgba(0, 0, 0, 1);
+     -moz-box-shadow: 0px 0px 9px -5px rgba(0, 0, 0, 1);
+     box-shadow: 0px 0px 9px -5px rgba(0, 0, 0, 1);
+     box-sizing: border-box;
+    margin-top: 320px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+#conteinerKoszyk {
+    margin-top: 20px;
+    margin-left: 50px;
+  overflow-y: auto;
+    height: 600px;
+}
+.koszykElement{
+
+    width: 80%;
+    height: 100px;
+    min-height: 100px;
+    border: 1px solid rgba(17, 17, 17, 0.13);
+}
+.koszykElement img {
+    margin: 10px;
+    float: left;
+    height: 80px;
+}
+.koszykElement h4 {
+    line-height: 45px;
+}
+.koszykElement p {
+    float: left;
+}
+.koszykElement button {
+    margin-top: -10px;
+    margin-right: 10px;
+    float: right;
+    color: red;
+    background-color: rgb(255, 192, 192);
+    border: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* line-height: 20px; */
+        transition: 0.2s;
+}
+.koszykElement button:hover {
+    background-color: rgb(252, 174, 174);
+    transition: 0.2s;
+}
+#wroc {
+    border-radius: 5px;
+    margin-top: -90px;
+    margin-left: -1140px;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
